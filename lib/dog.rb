@@ -1,21 +1,6 @@
 class Dog
-  def initalize(name,breed="Mutt")
-    @name=name
-    @breed=breed
-    
-  def breed=(breed)
-    @breed=breed
-  end
-    
-  def breed
-    @breed
-  end
-  
-  def name=(name)
-    @name=name
-  end
-  
-  def name
-    @name
+  def initialize(name, breed="Mutt") #set default value for an argument
+    @name = name
+    @breed = breed
   end
 end
